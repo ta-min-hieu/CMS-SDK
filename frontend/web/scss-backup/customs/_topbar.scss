@@ -1,0 +1,46 @@
+// $color-gray-1: #B3B3B3;
+// $color-gray-2: #282828;
+// $color-gray-3: #181818;
+// $color-gray-4: #121212;
+.link-light {
+  &:hover {
+    color: $white;
+    opacity: 0.65;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .popup-search.show  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: $space-7 $space-15;  
+    z-index: 2;
+    display: flex !important;
+    flex-wrap: nowrap;    
+    background-color: $color-gray-4;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .popup-search {
+    width: 355px;
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar.fixed-top {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-brand-umusic{
+    position: absolute;
+    img{
+      width: 100px;
+    }
+    left: calc(50% - 50px);
+  }
+}

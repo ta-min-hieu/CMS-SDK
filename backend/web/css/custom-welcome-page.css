@@ -1,0 +1,55 @@
+.div-title-en {
+    border: 1px solid #D2D6DE;
+    background-color: #FAFAFA;
+    height: 38px;
+    text-align: center;
+}
+.div-title-cam {
+    border: 1px solid #D2D6DE;
+    background-color: #FAFAFA;
+    height: 38px;
+    text-align: center;
+}
+.div-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.div-content-en {
+    width: 50%;
+    margin-right: 2%;
+    margin-top: 15px;
+    background-color: #F0F0F0;
+    border-radius: 11px;
+}
+.div-content-cam {
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 15px;
+    background-color: #F0F0F0;
+    border-radius: 11px;
+}
+.field-welcomepage-title_en {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.field-welcomepage-content_en {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.field-welcomepage-title_cam {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.field-welcomepage-content_cam {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.p-or {
+    margin-bottom: 0;
+}
+.fileinput-remove {
+    display: inline !important;
+}

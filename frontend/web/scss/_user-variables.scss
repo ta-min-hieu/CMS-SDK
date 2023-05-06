@@ -1,0 +1,23 @@
+//
+// user-variables.scss
+// Use this to override Bootstrap and Cartzilla variables
+//
+
+// Example of a variable override to change Cartzilla background color
+// Remove the "//" to comment it in and see it in action!
+// $body-bg: #12263f;
+$text-muted: #B3B3B3;
+$gray-700: #000000;
+$gray-800: #282828;
+$space-7: 0.438rem;
+$space-10: 0.625rem;
+$space-15: 0.938rem;
+
+$primary: #F3903F;
+$danger: #FE7118;
+
+$input-border-color:#595959;
+$input-focus-color:$gray-800;
+// $input-focus-bg:;
+// $input-focus-border-color:;
+// $input-focus-box-shadow:;

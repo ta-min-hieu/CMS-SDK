@@ -1,0 +1,138 @@
+.div-title-en {
+    border: 1px solid #D2D6DE;
+    background-color: #FAFAFA;
+    height: 38px;
+    text-align: center;
+}
+.div-title-cam {
+    border: 1px solid #D2D6DE;
+    background-color: #FAFAFA;
+    height: 38px;
+    text-align: center;
+}
+.div-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.div-content-en {
+    width: 50%;
+    margin-right: 2%;
+    margin-top: 15px;
+    background-color: #F0F0F0;
+    border-radius: 11px;
+}
+.div-content-cam {
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 15px;
+    background-color: #F0F0F0;
+    border-radius: 11px;
+}
+.field-camidhomemenudb-name_en {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.field-camidhomemenudb-name_cam {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.div-content-cate-other {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #D2D6DE;
+    /*width: 90% !important;*/
+    /*margin-left: 1%;*/
+    /*padding: 0;*/
+}
+.center {
+    width: 18%;
+    margin-bottom: 15px;
+    margin-top: 23px;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+.form-input {
+    background:#fff;
+    box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.377),
+    3px 3px 7px rgba(94, 104, 121, 0.377);
+    height: 216px;
+}
+
+.div-label {
+    width: 100%;
+    height: 20%;
+    line-height: 37px;
+    text-align: center;
+    background: #1172c2;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: Uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.div-label label {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.form-input input {
+    /*display:none !important;*/
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.preview img {
+    width: 100%;
+    height: 100%;
+}
+.preview {
+    height: 80%;
+}
+#input-deeplink {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #E8EAF5;
+}
+.div-deeplink {
+    margin-top: 10px;
+}
+.cancel-img{
+    width: fit-content;
+    height: fit-content;
+    padding: 3px 8px;
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+    position: absolute;
+    display: none;
+}
+#input-name {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #E8EAF5;
+}
+.div-name {
+    margin-top: 10px;
+}
+
+#label-image {
+    font-family: 'SF UI Text';
+    line-height: 22px;
+    font-size: 17px;
+}
+.help-block-error-image i {
+    color: #a94442;
+    opacity: 1 !important;
+    font-style: italic !important;
+    font-size: 13px;
+}

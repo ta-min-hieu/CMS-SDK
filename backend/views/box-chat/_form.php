@@ -1,0 +1,66 @@
+<?php
+
+use yii\bootstrap\Html;
+use awesome\backend\form\AwsActiveForm;
+use \yii\widgets\ActiveForm;
+use yii\helpers\ArrayHelper;
+use kartik\select2\Select2;
+use kartik\widgets\DepDrop;
+//use \backend\models\Branch;
+//use \backend\models\Partner;
+
+/* @var $this yii\web\View */
+/* @var $model backend\models\User */
+/* @var $title string */
+/* @var $form AwsActiveForm */
+?>
+
+<?php $form = ActiveForm::begin(); ?>
+
+<div class="portlet light portlet-fit portlet-form bordered user-form">
+
+    <div class="portlet-body">
+        <div class="form-body row">
+            <div class="col-md-6">
+                <?= $form->field($model, 'description')->textInput(['maxlength' => 100]) ?>
+            </div>
+            <div class="col-md-6">
+                <?= $form->field($model, 'title_question')->textInput(['maxlength' => 500]) ?>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-6">
+                <?= $form->field($model, 'greeting')->textInput(['maxlength' => 500]) ?>
+            </div>
+
+
+            <div class="col-md-6">
+                <?= $form->field($model, 'type_box_chat')->widget(Select2::classname(), [
+                    'data' => \yii\helpers\ArrayHelper::map(\backend\models\Major::find()->all(), 'id_mission', 'mission_name'),
+                    'size' => Select2::MEDIUM,
+                    'options' => [
+                        'placeholder' => Yii::t('backend', 'Choose a mission'),
+                        'id' => 'id_mission'
+                    ],
+                    'pluginOptions' => [
+                        'allowClear' => true
+                    ],
+                    'addon' => [
+                        'prepend' => [
+                            'content' => '<i class="glyphicon glyphicon-search"></i>'
+                        ]
+                    ],
+                ]); ?>
+            </div>
+        </div>
+    </div>
+
+    <div class="portlet-title">
+        <a href="<?= \yii\helpers\Url::to(['index']); ?>" class="btn btn-default btn-sm">
+            <i class="fa fa-angle-left"></i> <?= Yii::t('backend', 'Back') ?> </a>
+        &nbsp;&nbsp;&nbsp;
+        <?= Html::submitButton($model->isNewRecord ? Yii::t('backend', 'Create') : Yii::t('backend', 'Update'), ['class' => 'btn btn-transparent green  btn-sm']) ?>
+
+    </div>
+</div>
+
+<?php ActiveForm::end(); ?>

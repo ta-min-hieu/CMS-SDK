@@ -1,0 +1,40 @@
+// $color-gray-1: #B3B3B3;
+// $color-gray-2: #282828;
+// $color-gray-3: #181818;
+// $color-gray-4: #121212;
+// $color-primary: #F3903F;
+.nav-umusic{
+    background-color: $color-gray-2;
+    @include border-radius;
+    padding: 6px;
+    .btn-light{
+        background-color: transparent;
+        color:$white !important;
+        margin: 0 $space-7;
+        &:hover{
+            background-color: $white;
+            color: $black !important;    
+        }
+    }
+    .btn-light.active{
+        background-color: $white !important;
+        color: $black !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav-umusic{
+        .btn-light{
+            min-width: 9.375rem;
+        }
+    }
+}
+
+.btn-upgrade {
+    background-color: $color-gold;
+    color: $black;
+    &:hover{
+        color: $black;
+        opacity: .65;
+    }
+}

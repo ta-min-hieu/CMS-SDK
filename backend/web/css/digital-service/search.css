@@ -1,0 +1,76 @@
+#list-config {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 0;
+}
+#div-btn {
+    display: flex;
+}
+
+#div-btn-add {
+    width: 127px;
+    height: 33px;
+    left: 1355px;
+    top: 108px;
+    background: #B30C20;
+    border-radius: 6px;
+}
+
+#btn-add  {
+    /* position: absolute; */
+    height: 100%;
+    left: 1375px;
+    /* width: 100%; */
+    top: 121px;
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 23%;
+    color: #FFFFFF;
+}
+
+#btn-search {
+    border-radius: 6px;
+    width: 127px;
+    background: #07BFF7;
+    color: #FFFFFF;
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#btn-active {
+    border-radius: 6px;
+    width: 127px;
+    background: #003870;
+    color: #FFFFFF;
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#btn-deactive {
+    border-radius: 6px;
+    width: 127px;
+    color: #FFFFFF;
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    background: #E29B00;
+}
+

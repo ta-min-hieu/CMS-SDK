@@ -1,0 +1,105 @@
+// 
+// user.scss
+// Use this to write your custom SCSS
+//
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+  }
+
+  $color-gray-1: #B3B3B3;
+  $color-gray-2: #282828;
+  $color-gray-3: #181818;
+  $color-gray-4: #121212;
+  $color-gray-5: #595959;
+  $color-gray-6: #2D2D2D;
+  $color-primary: #F3903F;
+  $color-second: #FAEBE0;
+  $color-gold: #FED51B;
+  
+  body{
+    font-family: 'Inter', Rubik, sans-serif;
+    font-size: 0.875rem;
+    background-color: $color-gray-4;
+  }  
+  
+  @mixin border-radius {
+    border-radius: 0.25rem;
+  }
+  
+  .size-24{
+    font-size: 1.5rem;
+  }
+
+  .size-48{
+    font-size: 1.5rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .size-48{
+      font-size: 3rem;
+    }    
+  }
+  
+  .fs-smx{
+    font-size: .75rem !important;
+  }
+
+  .h6{
+    font-size: 1rem !important;
+    line-height: 1.25rem !important;
+  }
+  
+  .bg-dark{
+    background-color: $color-gray-4 !important;
+  }
+  
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+    color: $white;
+  }
+  
+  .rounded{
+    border-radius: 0.125rem !important;
+  }
+  
+  .text-muted {
+    color: $color-gray-1;
+  }
+  
+  .f-base{
+    font-size: 0.875rem;
+  }
+  
+  .f-title{
+    font-size: 1.5rem;
+  }
+
+  .f-medium {
+    font-size: 1rem;
+  }
+
+  .ci-custom-2 {
+    font-size: 1rem;
+    vertical-align: middle;
+    position: relative;
+  }
+
+  .img-fixed{
+    width: 240px;
+    height: 240px;
+  }
+
+  .bg-gray{
+    background-color: #373737;
+  }
+
+  .bg-gray-2{
+    background-color: $color-gray-3;
+  }  
+
+  .link-color{
+    color: $color-gray-1;
+    &:hover{
+      color: $white;
+    }
+  }

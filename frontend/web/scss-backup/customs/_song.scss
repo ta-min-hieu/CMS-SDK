@@ -1,0 +1,76 @@
+.product-card-alt {
+  background-color: $color-gray-3;
+  margin-bottom: 1rem;
+  @include border-radius;
+  .product-thumb {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0.938rem;
+    img{
+      box-shadow: 0 .5rem 1rem rgba($black, .15);
+    }
+  }
+  &:hover, .active-card{
+    background-color: $color-gray-2;
+    box-shadow: 0 1rem 3rem rgba($black, .175);
+    .product-thumb-overlay{
+      display: block;
+    }
+  }
+  .card-body{
+    padding:0 0.938rem 0.938rem!important;
+  }
+}
+
+.product-title {
+  height: 2.5rem;
+  > a{
+    color: $white;
+    &:hover{
+      opacity: 0.8;
+      color: $white;
+    }
+  }
+}
+
+// Links
+.l-more{
+  color: $color-gray-1;
+  &:hover{
+    opacity: 0.8;
+    color: $color-gray-1;
+  }
+}
+
+.card-link{
+  background: linear-gradient(180deg, #FFA00E 0%, #FE7118 71.77%);
+  flex-direction: row !important;
+  width: 100%;
+  &:hover{
+    opacity: .65;
+  }
+}
+
+.btn-add{
+  background-color: rgba($white, .65);
+  padding: 0.925rem 0.875rem;  
+  .ci-add{
+    font-size: 1.9rem;
+    color: #fff;
+  }
+}
+
+.singer-thumb{
+  .rounded{
+    border-radius: 50% !important;
+  }
+  .product-card-actions{
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  
+}
+
+

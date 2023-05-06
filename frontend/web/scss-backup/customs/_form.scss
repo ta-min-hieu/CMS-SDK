@@ -1,0 +1,76 @@
+$input-placeholder-color: $color-gray-2;
+$input-color: $white;
+$input-bg: $color-gray-2;
+$input-focus-color: $white;
+$input-focus-bg: $color-gray-2;
+// $input-focus-border-color;
+$input-placeholder-color: $white;
+$input-box-shadow: #000;
+$input-focus-box-shadow: #000;
+
+.form-control-custom {
+  color: $input-color;
+  background-color: $input-bg;
+
+  // Customize the `:focus` state to imitate native WebKit styles.
+  &:focus {
+    color: $input-focus-color;
+    background-color: $input-focus-bg;
+    border-color: $input-focus-border-color;
+    outline: 0;
+    @if $enable-shadows {
+      box-shadow: none;
+    } @else {
+      // Avoid using mixin so we can pass custom focus shadow properly
+      box-shadow: none;
+    }
+  }
+
+  // Placeholder
+  &::placeholder {
+    color: $input-placeholder-color;
+  }
+}
+
+.form-control-custom-2 {
+  color: $color-primary;
+  background-color: $color-second;
+  border-color: $color-second;
+  border-width: 2px;
+  // Customize the `:focus` state to imitate native WebKit styles.
+  &:focus {
+    color: $color-primary;
+    background-color: $color-second;
+    border-color: $color-primary;
+    outline: 0;
+    @if $enable-shadows {
+      box-shadow: none;
+    } @else {
+      // Avoid using mixin so we can pass custom focus shadow properly
+      box-shadow: none;
+    }
+  }
+
+  // Placeholder
+  &::placeholder {
+    color: rgba($black, $alpha: .65);
+  }
+}
+
+.btn-control-custom-2{
+  color: rgba($black, $alpha: .65);
+  background-color: $color-second;
+  &:hover{
+    border-color: #FFDEC6;
+  }
+}
+
+// .btn-dark {
+//   background-color: rgba($color: $black, $alpha: 1);
+//   border-color: $black;
+//   &:hover {
+//     border-color: $black;
+//     background-color: rgba($color: $black, $alpha: 0.65);
+//   }
+// }
+

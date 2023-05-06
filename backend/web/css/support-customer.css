@@ -1,0 +1,749 @@
+.html body{
+    font-size: 13px !important;
+}
+
+p {
+    margin: 5px 0px 0px 0px;
+}
+/*  ----------------------------------------------------------------------- */
+.user-index{
+    padding: 20px;
+}
+
+.sub-menu li a{
+    border: none !important;
+    color:#fff !important;
+}
+
+
+.list-group>li{
+    border-left: none !important;
+    border-right: none !important;
+    
+    border-top: 1px solid #ddd !important;
+
+}
+.list-group>li:first-child{
+    border: none !important;
+}
+
+.list-group-item .flex-between{
+    border: none;
+    margin-bottom: 10px;
+}
+
+.list-group-item  {
+    border-right: none;
+    border-left: none;
+}
+
+.list-group-item:hover  {
+    border-right: none;
+    border-left: none;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.menu-status li a{
+    color: #bcbcbc;
+    border: none !important;  
+}
+
+.menu-status li.active{
+    border: none ;
+    border-bottom: solid 2px red;
+    
+}
+
+.menu-status li.active  a{
+    color: red!important;
+    border: none ;
+}
+
+
+.message span{
+    display: inline-block;
+    white-space: nowrap !important; 
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 100%;
+}
+.border-rounded{
+    padding-bottom: 40px !important;
+    border-radius: 20px !important;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.height-1000{
+    max-height: 1000px;
+}
+
+
+#user-info-chat {
+    min-height: 100px;
+}
+/* -------------------------------------chat message ---------------------------- */
+
+.tab-pane {
+    height: 100%;
+}
+.msg-re{
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 70%;
+    margin-block-end: 5px;
+}
+.msg-send{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin-block-end: 5px;
+}
+
+.content-re{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    border-style: none;
+    padding: 5px;
+    height: auto;
+}
+
+.content-send{
+    background-color: #CCD0D9;
+    border-radius: 12px;
+    border-style: none;
+    padding: 5px;
+    height: auto;
+}
+
+.btn-assign {
+    width: auto ; 
+    
+    top: 90px;
+}
+
+.time-msg-tc {
+
+    font-family: "Open Sans",sans-serif !important;
+    color: #8B8A90;
+   font-size: 14px ;
+   float: right;
+   margin-right: 15px;
+}
+
+.time-msg {
+    float: right;
+    font-size: 13px;
+    font-family: "Open Sans",sans-serif !important;
+    color: #8B8A90;
+
+    margin-left: 25px;
+
+}
+
+.date-day {
+    color: #111; 
+    width: 30%;
+    margin-left: 35%;
+    font-family: "Open Sans",sans-serif !important;
+
+    font-size: 14px;
+    height: 25px;
+    /* border-radius: 12px; */
+    text-align: center;
+    /* background-color: #F2F2F2; */
+}
+
+
+pre{
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif !important;
+    margin: 0;
+    white-space: pre-wrap;
+    background-color: inherit;
+
+    color: #151A35;
+    border-style: none;
+    border-radius: 12px;
+    height: auto;
+    min-height: 42px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.audioPlay{
+    
+}
+/* -------------------------------------end chat message ---------------------------- */
+
+/* .m-auto{
+    margin: auto;
+    box-shadow: none !important;
+} */
+
+
+.content-msg{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
+
+}
+
+.col-md-8{
+    width: 61.666667%;
+}
+.col-md-4{
+    width: 38.333333%;
+
+}
+.nav {
+    display: flex;
+    flex-direction: row !important;
+}
+.tab-content{
+    overflow-y: auto;
+    height: 100%;
+}
+html {
+    overflow: hidden;
+}
+
+.w3-modal-content{
+    border-radius: 20px !important;
+    width: 30% !important;
+}
+
+.w3-button{
+    background-color: unset !important;
+    font-size: 33px !important;
+    padding: 0px 16px !important;
+    border-top-right-radius: 1rem !important;
+}
+
+input[type="radio"] {
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #AEACC1;
+    border-radius: 50%;
+}
+
+input[type="radio"]:focus{
+    outline: unset;
+}
+
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+    background-color: #B30C20;
+}
+
+.show{
+    display: block;
+}
+
+/* ---------------------------------------------------------------------------- */
+.btnAssign {
+    background-color: snow !important;
+    color: #0080009e !important;
+    border-radius: 0.5rem !important;
+    width: auto !important;
+}
+.btnAssign:hover{
+    background-color: #008000a1 !important;
+    color: white !important;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+#block-send-msg {
+    margin: 5px 0px;
+}
+
+.custom-file-upload , .custom-close-pre-audio{
+    margin: auto;
+    padding: 0px 10px;
+}
+
+#input-text{
+    overflow-y: auto;
+
+    width: 100%;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    /* height: 40px; */
+    min-height: 40px;
+    max-height: 80px;
+
+    margin-left: 10px;
+    
+}
+
+.send-link , .send-voice , #cl-pre-audio{
+    font-size: 25px;
+    color: #B30C20;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.loading-recoder {
+    display: inline-block;
+    width: 100%;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #B30C20;
+
+    color: white;
+}
+
+@keyframes pulse {
+0% {
+    background-color: rgb(255, 255, 255);
+}
+50% {
+    background-color: #f06c6c;
+}
+100% {
+    background-color: rgb(255, 255, 255);
+}
+}
+
+.custom-recorder{
+    background-color: rgb(250, 250, 250);
+    color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    animation: ease pulse 2s infinite;
+
+    line-height: 2.4;
+    margin: 3px;
+}
+
+.pre-audio {
+    height: 40px;
+    width: 100%;
+}
+
+.stop-voice{
+    width: 10%;
+    font-size: 25px;
+    min-height: 50px;
+    color: #00c51a;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.send-text{
+    color: #B30C20;
+    margin: auto;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+
+
+.file-msg-icon {
+    font-size: 35px;
+    color: #4267b2;
+}
+
+.pause-recorder {
+    cursor: pointer;
+}
+
+.pause-recorder:hover {
+    font-size: 17px;
+}
+/* ---------------------------------------------------------------------------- */
+.active-list{
+    background-color: red;
+}
+
+
+/* --------------------------------zoom img -------------------------------------- */
+
+/* Style the Image Used to Trigger the Modal */
+.msg-img {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    /* max-height:150px; */
+    width: 200px;
+    overflow:hidden;
+    transition: transform .2s; /* Animation */
+
+    margin-top: 5px;
+}
+  
+  .msg-img:hover {opacity: 0.7;}
+  
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close-zoom-img {
+    position: absolute;
+    top: 90px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    
+  }
+  
+  .close-zoom-img:hover,
+  .close-zoom-img:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+
+/* -------------------------------loader --------------------------------- */
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #c9c9c9;
+    border-radius: 50%;
+    border-top: 16px solid #4267b2;
+    
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+
+  /* -------------------------------------------------------------------------- */
+  .glyphicon-alert{
+      color :#B30C20;
+      font-size: 20px;
+
+      margin-left: 5px;
+  }
+
+  .glyphicon-repeat {
+    color :#4267b2;
+    font-size: 20px;
+
+    margin-left: 5px;
+  }
+
+/* ----------------------------------------------------------------- */
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}
+
+.after-sc {
+  position: -webkit-sticky; /* Safari */
+  position: sticky !important;
+  top: 0 !important;
+}
+
+/* -----------------------------------list user --------------------------------------- */
+
+.list-user {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.list-user-item {
+    width: 100% !important;
+}
+
+.list-item-item:last-child{
+    border-bottom: none;
+  }
+
+.list-user-item-content p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+.list-user-item-content h4{
+    margin-top: 10px;
+    font-size: 16px;
+
+    font-weight: 600;
+  }
+
+
+  /* ------------------------------------------------------------------------------ */
+#list-pre-file-upload {
+    overflow-x: auto !important;
+    overflow-y: hidden;
+    height: 170px;
+    width: 100%;
+    background-color: #c9c9c9;
+    border-radius: 10px;
+    white-space: nowrap
+}
+.pre-file-div {
+    display: inline-block;
+    max-width: 200px;
+    width: auto;
+    height: 150px;
+    background-color: #bbb;
+
+    border-radius: 10px;
+
+    position: relative;
+
+    margin : 5px;
+
+    min-width: 150px;
+}
+.pre-img {
+    height: 150px;
+    width: auto;
+    display: block;
+
+    border-radius: 10px;
+}
+
+.pre-file {
+    font-size: 75px;
+    display: block;
+
+    margin-top: 50px;
+    float: left;
+}
+
+.cl-pre-image {
+    border-radius: 50%;
+    font-size: 20px;
+    position: absolute;
+
+    right: 0px;
+}
+
+.pre-name-file {
+    display: block;
+    float: left;
+    margin-top: 80px;
+
+
+    white-space: nowrap; 
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+/* --------------------------------responsive------------------------------------------ */
+/*  lap top */
+.image-user{
+    margin: 5px;
+}
+
+@media only screen and (min-width: 2000px) {
+
+    #msg-block {
+        height: 90% !important;
+    }
+
+}
+
+@media only screen and (min-width: 1700px) {
+
+    #msg-block {
+        height: 85% !important;
+    }
+
+}
+
+@media only screen and (min-width: 1441px) {
+
+    .content-msg {
+        height: 95%;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+    .user-index div .portlet {
+        overflow-y: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 1440px) {
+    
+    .col-md-4 {
+        height: 70% !important;
+    }
+
+    .col-md-8 {
+        height: 90% !important;
+    }
+
+    .content-msg {
+        height: 80%;
+    }
+
+
+    #info-user-1{
+        font-size: 14px !important;
+    }
+
+    #info-user-2 , #info-user-3{
+        font-size: 10px !important;
+    }
+ 
+    #img-info-user{
+        margin-top: 5px !important;
+    }
+
+    #block-send-msg {
+        margin-bottom: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    
+    .col-md-4 {
+        width: 40% !important;
+    }
+    .col-md-8 {
+        width: 60% !important;
+    }
+
+    .sessionChatId {
+        font-size: 14px !important;
+    }
+
+    .time-msg-tc{
+        font-size: 12px !important;
+    }
+
+    .message{
+        font-size: 12px !important;
+    }
+    
+    pre {
+        font-size: 12px !important;
+    }
+
+    .time-msg{
+        font-size: 11px !important;
+    }
+
+    .tab-content {
+        margin-bottom: 12% !important;
+    }
+
+    .content-msg {
+
+        min-height: 60%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col-md-4 {
+      width: 100% !important;
+    }
+    .col-md-8 {
+        width: 100% !important;
+        margin-top: 100px !important;
+        border-top: 1px solid #ddd !important;
+    }
+    
+}

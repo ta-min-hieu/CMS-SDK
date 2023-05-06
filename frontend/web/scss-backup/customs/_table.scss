@@ -1,0 +1,187 @@
+.media-img{
+    width: 40px;
+    height: 40px;
+}
+
+.u-table{
+    color: #B3B3B3;
+    a{
+        color: #B3B3B3;
+        &:hover{
+            color: $white;
+        }
+    }
+    .u-heading{
+        border-bottom: 1px solid $color-gray-2;
+        margin-bottom: 0.55rem;
+    }
+    .u-row{
+        @include border-radius;
+        &:hover {
+            background: $color-gray-2;
+        }
+        .vip-lable{
+            background-color: #FED51B;
+            color: #000;
+            font-size: 0.65rem;
+            padding-left: 0.4rem;
+            padding-right: 0.4rem;
+            @include border-radius;
+            position:relative;
+            top:-10px;
+            margin-left:10px;
+            display:none;
+        }
+    }
+    .icon-sign{
+        position: relative;
+        margin-left: -5px;
+        display: none;
+    }
+    .text-gaph{
+        line-height: 0;
+        display: flex;
+        flex-direction: column;
+    
+        .text-up{
+            color: #8CD63A;
+            font-size: .6rem;
+            transform: rotate(180deg);
+            line-height: 0;
+            margin-bottom: 14px;
+        }
+        
+        .text-down{
+            color: #FF3838;
+            font-size: .6rem;
+            line-height: 0;
+            margin-bottom: 14px;
+        }
+        
+        .text-balance{
+            line-height: 0;
+            height: 2px;
+            margin-bottom: 14px;
+            display: inline-block;
+            background-color: #C4C4C4;
+        }
+    }
+    .u-row.active{
+        background: $color-gray-2;
+        color: $white;
+        a{
+            color: $white;  
+        }
+        .icon-sign{
+            display: inline-block;
+        }
+        .text-billboard{
+            .icon-sign{
+                margin-left: 15px;
+            }            
+        }
+        .text-number, .text-gaph{
+            display: none;
+        }        
+    }
+    .u-row.for-vip{
+        color: rgba($color: $white, $alpha: .35);
+        a{
+            color: rgba($color: $white, $alpha: .35);
+        }
+        .vip-lable{
+            display:inline-block;
+        }        
+    }
+    .u-col{
+        // flex: 0 0 25%;
+        padding: 0.55rem;
+        border-bottom-width: 1px;
+    }
+
+    .text-index{
+        width: 15px;
+    }
+
+    .text-billboard{
+        width: 77px;
+    }
+    .col-03{
+        flex: 0 0 73px;
+    }
+    .col-04{
+        flex: 0 0 110px;
+    }   
+    .col-02{
+        flex: 0 0 calc(100% - 260px);
+        width: calc(100% - 260px);
+    }    
+}
+
+.text-number-decor{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../img/bg-icon-bill.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    color: #7D7D7D;
+}
+
+.top-level{
+    background-position: -40px 0;
+    color: #8CD63A;
+    font-size: 18px;
+}
+.second-level{
+    background-position: -80px 0;
+    color: #0099FF;
+    font-size: 18px;
+}
+.third-level{
+    background-position: -120px 0;
+    color: #FF3D9B;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    .u-table{
+        .col-01{
+            flex: 0 0 5%;
+        }
+        .col-02{
+            flex: 0 0 45%;
+        }
+        .col-03{
+            flex: 0 0 25%;
+        }
+        .col-04{
+            flex: 0 0 25%;
+        }
+    }
+}
+
+.u-table-short{
+    .col-01{
+        flex: 0 0 20%;
+    }
+    .col-02{
+        flex: 0 0 80%;
+        text-align: right;
+    }
+}
+
+.u-table-short-2{
+    .col-02{
+        flex: 0 0 80%;
+    }
+    .col-03{
+        flex: 0 0 20%;
+        text-align: right;
+    }
+}
+
+.billboard-week{
+    background-color: $color-gray-3;
+}
+

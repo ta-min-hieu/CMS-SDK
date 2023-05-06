@@ -1,0 +1,16 @@
+.search-suggetion{
+    background-color: $color-gray-6;
+    border-radius: 1.25rem;
+    .header-suggestion{
+        border-bottom: 1px solid $color-gray-5;
+        color: $white;
+    }
+    .search-suggetion-list{
+        a{
+            &:hover{
+            background-color: $color-gray-5;
+            }
+        }
+    }
+}
+  
