@@ -4,9 +4,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=192.168.1.88:3306;dbname=sdkcms',
-            'username' => 'admin',
-            'password' => 'Ringme@2022',
+            'dsn' => 'mysql:host=127.0.0.1:3306;dbname=sdkcms',
+            'username' => 'root',
+            'password' => '',
             'charset' => 'utf8',
             'enableSchemaCache' => false,
             // Duration of schema cache.
@@ -16,9 +16,9 @@ return [
         ],
         'dbsdk' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=192.168.1.88:3306;dbname=ejabberd',
-            'username' => 'admin',
-            'password' => 'Ringme@2022',
+            'dsn' => 'mysql:host=127.0.0.1:3306;dbname=sdkchat',
+            'username' => 'root',
+            'password' => '',
             'charset' => 'utf8',
             'enableSchemaCache' => false,
             // Duration of schema cache.
